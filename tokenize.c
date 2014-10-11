@@ -1,4 +1,5 @@
-//Dyangelo Grullon (dag4202)
+//tokenize.c
+//author: Dyangelo Grullon (dag4202)
 #include <stdlib.h>
 #include <stdio.h>
 #include "matrix.h"

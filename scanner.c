@@ -1,5 +1,5 @@
-//Dyangelo Grullon (dag4202)
 //scanner.c
+//author: Dyangelo Grullon (dag4202)
 #include "scanner.h"
 #include "matrix.h"
 #include <stdio.h>

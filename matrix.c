@@ -1,3 +1,5 @@
+//matrix.c
+//author: Dyangelo Grullon (dag4202)
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
