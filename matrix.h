@@ -1,9 +1,9 @@
 //matrix.h
 //Dyangelo Grullon (dag4202)
 
-#ifndef MATRIX
-#define MATRIX
-
+#ifndef _MATRIX_H_
+#define _MATRIX_H_
+#include <stdio.h>
 
 typedef struct MatrixNode {
 	int next;

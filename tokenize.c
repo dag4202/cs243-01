@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "matrix.h"
-
+#include "scanner.h"
 
 int main(int argc, char * argv[]){
 	if (argc==1){
@@ -17,8 +17,8 @@ int main(int argc, char * argv[]){
 		}
 		TransMatrix Tmat = buildMatrix(fp);
 		printMatrix(Tmat);
+		while(scanner(Tmat)!=EOF){}
 		destroyMatrix(Tmat);
 	}
 
-	return 1;
 }
