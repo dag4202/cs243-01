@@ -52,7 +52,7 @@ int scanner(TransMatrix Tmat){
 		if (node.action=='s'){
 			stringcount++;
 			buff = realloc(buff,stringcount +1);
-			sprintf(buff,"%s%c", buff, c); 
+			sprintf(buff,"%s%c", buff, c);
 		}
 		current = node.next;
 	}

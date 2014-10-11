@@ -6,8 +6,8 @@
 #include "scanner.h"
 
 int main(int argc, char * argv[]){
-	if (argc==1){
-		printf("usage: ./tokenize tm_file\n");
+	if (argc!=2){
+		fprintf(stderr, "usage: ./tokenize tmfile\n");
 		exit(1);
 	} else {
 		FILE *fp; 
@@ -20,6 +20,7 @@ int main(int argc, char * argv[]){
 		printMatrix(Tmat);
 		while(scanner(Tmat)!=EOF){}
 		destroyMatrix(Tmat);
+		fclose(fp);
 	}
 
 }
